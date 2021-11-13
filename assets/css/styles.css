@@ -1,6 +1,25 @@
+a:hover {
     text-decoration:underline !important
 }
 input {
     height:8vh
 }
 .btn-green {
+    background: linear-gradient(93.34deg, #63DDB1 2.67%, #1B9F6F 95.67%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    color: white;
+}
+.btn.btn-green:hover {
+    color: white;
+}
+.btn.btn-green:focus {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+.btn.btn-green:active {
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.form-check-input.checkbox-green:checked {
+    background: #53D0A3 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+    border-color: #53D0A3;
+}
