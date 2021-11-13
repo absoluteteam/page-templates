@@ -36,4 +36,11 @@ input {
 .span-green {
     color: #1B9F6F;
 }
+.header {
+    font-size: 3em;
+}
+.cmpb {
+    margin-bottom: 0; !important;
+    padding-bottom: 0; !important;
+}
 
