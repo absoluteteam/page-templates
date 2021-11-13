@@ -13,13 +13,23 @@ input {
 .btn.btn-green:hover {
     color: white;
 }
-.btn.btn-green:focus {
+.btn.btn-green:focus, .btn.btn-white:focus {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
-.btn.btn-green:active {
+.btn.btn-green:active, .btn.btn-white:active {
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.35);
 }
 .form-check-input.checkbox-green:checked {
     background: #53D0A3 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
     border-color: #53D0A3;
+}
+.btn-white {
+    background: #F9F9F9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+}
+.btn.btn-white:hover {
+    color: black;
 }
