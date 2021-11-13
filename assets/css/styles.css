@@ -46,4 +46,7 @@ input {
 span.txt-green{
     color:#1B9F6F;
 }
+.extra-div::before{
+    filter:brightness(0.1)
+}
 
