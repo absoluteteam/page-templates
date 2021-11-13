@@ -87,13 +87,10 @@
                 </div>
             </div>
         </div>
-        <div class='shadow' style="margin-left:12vw; margin-right:12vw;margin-top:5vw;">
-            <canvas
-  data-mdb-chart="line"
-  data-mdb-dataset-label="Traffic"
-  data-mdb-labels="['Monday', 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday ']"
-  data-mdb-dataset-data="[2112, 2343, 2545, 3423, 2365, 1985, 987]"
-></canvas>
+        <div class='shadow p-3 mb-5 bg-white' style="margin: 5vw 12vw 0 12vw;border-radius: 1.5vw; ">
+            <div class="card chart-container">
+                <canvas id="chart"></canvas>
+              </div>
         </div>
         <div class='container shadow p-3 mb-5 bg-white' style='border-radius: 1.5vw;margin-top:5vw;'>
             <div class='d-flex justify-content-center shadow-md' style="margin-bottom: 1vw;"><button
@@ -181,6 +178,33 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js">
+</script>
+<script>
+      const ctx = document.getElementById("chart").getContext('2d');
+      const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Август","Сентябрь", "Октябрь","Ноябрь","Декабрь"],
+          datasets: [{
+            label: 'Антон Петров',
+            backgroundColor: 'rgb(114, 226, 185)',
+            borderColor: 'rgb(27, 159, 111)',
+            data: [5,10,7,12,15],
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true,
+              }
+            }]
+          }
+        },
+      });
+</script>
 </body>
 
 </html>
