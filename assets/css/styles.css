@@ -2,7 +2,7 @@ a:hover {
     text-decoration:underline !important
 }
 input {
-    height:8vh
+    height: 48px
 }
 .btn-green {
     background: linear-gradient(93.34deg, #63DDB1 2.67%, #1B9F6F 95.67%);
