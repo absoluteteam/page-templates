@@ -46,8 +46,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AGBengaly Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('AGBengaly Bold'), local('AGBengaly-Bold'),
+    url('AGBengalyBold.woff') format('woff'),
+    url('AGBengalyBold.ttf') format('truetype');
+}
+
 .muller {
     font-family: Muller,serif;
     font-style: normal;
     font-weight: normal;
+}
+.bengaly {
+    font-family: "AGBengaly Bold", serif;
+    font-style: normal;
+    font-weight: bold;
 }
