@@ -48,6 +48,9 @@ input {
     line-height: 88%;
     padding-bottom: 3vh;
 }
+.header-small {
+    font-size: 4em !important;
+}
 .paragraph-text {
     line-height: 140%;
     font-size: 160%;
@@ -80,4 +83,18 @@ img.limit-img {
 }
 .plus-btn:hover{
     background-color: rgb(0.8, 0.8, 0.8)
+}
+a.supress {
+    color: black !important;
+    text-decoration: inherit !important;
+}
+a.supress:hover {
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.4;
+}
+.fastico {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width: 15px;
+    height: 15px;
 }
