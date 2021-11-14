@@ -10,6 +10,10 @@ input {
     border-radius: 10px;
     color: white;
 }
+.btn-green-lg {
+    max-width: 200px;
+    height: 50px;
+}
 .btn.btn-green:hover {
     color: white;
 }
@@ -37,7 +41,17 @@ input {
     color: #1B9F6F;
 }
 .header {
-    font-size: 3em;
+    font-size: 6em;
+    font-family: "AGBengaly Bold",serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 88%;
+    padding-bottom: 3vh;
+}
+.paragraph-text {
+    line-height: 140%;
+    font-size: 160%;
+    padding-bottom: 2.5vh;
 }
 .cmpb {
     margin-bottom: 0; !important;
@@ -47,7 +61,7 @@ input {
     color: #1B9F6F;
 }
 img.limit-img {
-    height: 82vh;
+    height: 51vh;
 }
 .va-center {
     display: flex;
